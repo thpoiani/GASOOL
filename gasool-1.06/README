@@ -1,0 +1,66 @@
+
+	GASOOL 1.06 - PREÇO DOS COMBUSTÍVEIS
+	====================================
+
+	Sobre o programa
+	================
+
+  GASOOL é um software livre realizado para fins acadêmicos, idealizado para 
+  a disciplina "Introdução à Sistemas Operacionais", ministrada pelo 
+  Prof. Ms. Pedro Northon Nobile <nobilecefetsp@gmail.com> no Instituto Federal
+  de Educação, Ciência e Tecnologia de São Paulo (IFSP), campus São Carlos.
+
+  A principal função desse programa é retornar os preços dos combustíveis
+  dos postos cadastrados no site <http://www.precodoscombustiveis.com.br/>.
+  O seu retorno é dado graças a biblioteca libcurl, a qual é necessária para o
+  funcionamento correto do programa. O download de sua última versão pode ser
+  feito em <http://curl.haxx.se/>.
+
+  Esse diretório contem a GASOOL versão 1.06. Veja os autores dessa versão no
+  arquivo AUTHORS.
+
+	Instalação
+	==========
+
+  Para instruções de instalação, compilação e execução, veja o arquivo INSTALL.
+
+	Modo de uso
+	===========
+
+  O programa retorna o nome e endereço dos postos cadastrados, junto dos 
+  valores de seus combustíveis, de uma cidade específica.
+  Para verificar as cidades de determinado estado, digite `gasool -sp', onde
+  "sp" poderia ser substituído por qualquer unidade federativa do Brasil.
+  Então, para verificar o retorno completo, digite `gasool -sp -sao-carlos',
+  sempre usando o caractere "-" no lugar dos espaços e evitando caracteres
+  especiais.
+  O programa não é case-sensitive.
+
+  Para maiores informações, veja gasool(1) ou `gasool --help'.
+
+	Licença
+	=======
+
+  GASOOL é um software livre sobre os termos da Licença Pública Geral GNU 
+  versão 2. Veja uma cópia da licença no arquivo COPYING.
+
+	Bugs e Contato
+	==============
+
+  Você pode mandar relatórios de bugs e defeitos para <gasool.anp@live.com>.
+  Entre em contato pelo mesmo email citado acima ou pelo site
+  <http://sourceforge.net/projects/gasool/>.
+
+================================================================================
+
+  Copyright (C) 2012, Marcel Luis Nishihara - Thiago Henrique Poiani
+  Este programa é software livre; você pode redistribuí-lo e/ou
+  modificá-lo sob os termos da Licença Pública Geral GNU, conforme
+  publicada pela Free Software Foundation; tanto a versão 2 da
+  Licença como (a seu critério) qualquer versão mais nova.
+
+  Este programa é distribuído na expectativa de ser útil, mas SEM
+  QUALQUER GARANTIA; sem mesmo a garantia implícita de
+  COMERCIALIZAÇÃO ou de ADEQUAÇÃO A QUALQUER PROPÓSITO EM PARTICULAR.
+  Consulte a Licença Pública Geral GNU para obter mais detalhes.
+

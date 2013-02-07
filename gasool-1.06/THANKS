@@ -1,0 +1,35 @@
+
+	GASOOL - LISTA DE AGRADECIMENTOS
+	================================
+
+  Essa lista contem as pessoas que tiveram uma significante contribuição
+  para o desenvolvimento do programa.
+  Leia `AUTHORS' para ver os autores que desenvolveram o programa.
+
+	THANKS
+	======
+
+  Pedro Northon Nobile <nobilecefetsp@gmail.com>
+	* Professor orientador e idealizador do projeto.
+
+  Thiago Silva Barros <thiagosbarros02@gmail.com>
+	* Considerável ajuda no desenvolvimento do programa, especialmente
+	  em manutenções e testes.
+  "Graças à busca por sua cidade no programa, Pirassununga, foi encontrado
+  erros de alocação de memória. Aprendi muito usando a ferramenta `valgrind'
+  para corrigir esses defeitos.", Thiago Henrique Poiani.
+
+  Lucas Fernandes Masalskas <lu_masalskas@hotmail.com>
+	* Considerável ajuda no desenvolvimento do programa, especialmente
+	  em manutenções e testes.
+
+  Matheus Maricondi <matheusz_65@hotmail.com>
+	* Considerável ajuda no desenvolvimento do programa, especialmente
+	  em interpretação da biblioteca libcurl.
+
+	Informações
+	===========
+
+  Para mais informações sobre o programa, leia o `README' ou entre em contato
+  <gasool.anp@live.com>.
+

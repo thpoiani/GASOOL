@@ -1,0 +1,59 @@
+
+	GASOOL - CURL
+	=============
+
+	Instalação
+	==========
+
+  É preciso ter instalado a biblioteca `libcurl' para a execução do programa.
+  Caso seu sistema não possuia a biblioteca citada, durante a configuração
+  (`/configure') é gerado um erro informando para acessar esse arquivo.
+
+  Basicamente, os comandos shell `sudo apt-get install libcurl4-nss-dev' deve
+  configurar, criar e instalar o essa biblioteca. As instruções a seguir
+  são mais detalhadas.
+
+  Para fazer a instalação completa da biblioteca, acesse <http://curl.haxx.se/>
+  e faça o download da versão mais recente, atualmente `curl-7.26.0'.
+
+  Após a instalação da biblioteca `libcurl', volte ao diretório onde está
+  o `gasool' e tente novamente executar o comando shell `./configure'.
+
+	Instalação Passo-a-Passo
+	========================
+
+  Para fazer o download da biblioteca `libcurl', necessária para a execução
+  do programa, você pode utilizar os seguintes comandos shell:
+
+  1. `wget http://curl.haxx.se/download/curl-7.26.0.tar.gz' para baixar a
+  versão atual da biblioteca.
+
+  2. `cd' para o diretório que contém o arquivo curl-7.26.0.tar.gz.
+
+  3. `tar zxvf curl-7.26.0.tar.gz' para descompactar os arquivos.
+
+  4. `cd curl-7.26.0' para ir ao diretório extraído.
+
+  5. Digite `./configure' para configurar o programa para seu sistema.
+
+  6. Digite `make' para compilar o programa.
+
+  7. Digite `make install' para instalar a biblioteca `libcurl'.
+
+  É recomendado que o programa seja configurado e compilado com um usuário
+  regular, e somente o `make install' executado com privilégios de root
+  (administrador), portanto use `su' antes dessa fase.
+
+================================================================================
+
+  Copyright (C) 2012, Marcel Luis Nishihara - Thiago Henrique Poiani
+  Este programa é software livre; você pode redistribuí-lo e/ou
+  modificá-lo sob os termos da Licença Pública Geral GNU, conforme
+  publicada pela Free Software Foundation; tanto a versão 2 da
+  Licença como (a seu critério) qualquer versão mais nova.
+
+  Este programa é distribuído na expectativa de ser útil, mas SEM
+  QUALQUER GARANTIA; sem mesmo a garantia implícita de
+  COMERCIALIZAÇÃO ou de ADEQUAÇÃO A QUALQUER PROPÓSITO EM PARTICULAR.
+  Consulte a Licença Pública Geral GNU para obter mais detalhes.
+

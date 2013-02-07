@@ -1,0 +1,13 @@
+CC=/usr/bin/gcc
+BIN=gasool
+SOURCE=src/gasool.c
+MAN=gasool.1.gz
+MAN_PAGE=man/gasool.1.gz
+gasool: 
+	$(CC) -o $(BIN) $(SOURCE) -lcurl
+clean:
+	rm /usr/bin/$(BIN)
+	rm /usr/share/man/man1/$(MAN)
+install:
+	cp $(BIN) /usr/bin/
+	cp $(MAN_PAGE) /usr/share/man/man1/

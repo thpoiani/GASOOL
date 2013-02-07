@@ -1,0 +1,76 @@
+
+	GASOOL - INSTRUÇÕES PARA INSTALAÇÃO
+	===================================
+
+	Instalação
+	==========
+
+  Basicamente, os comandos shell `./configure; make; make install' devem
+  configurar, criar e instalar o esse programa. As instruções a seguir
+  são mais detalhadas.
+
+  O shell script `configure' prepara os componentes presentes no sistema
+  que serão necessários durante a compilação, criando assim o `Makefile',
+  o shell script `config.status', que você pode executar futuramente para
+  recriar os configurações atuais, e o arquivo `config.log' contendo as
+  saídas do compilador.
+
+  O arquivo `configure.ac', foi gerado pelo `autoscan', e é usado para
+  criar o `configure' com um programa chamado `autoconf'. Se você deseja
+  modificar o programa, você precisa do `configure.ac' para atualizar o
+  `configure'.
+
+	Instalação Passo-a-Passo
+	========================
+
+  O modo mais simples de compilar o programa, após o download, é:
+
+  1. `cd' para o diretório que contém o arquivo gasool-x.y.tar.gz.
+
+  2. `tar zxvf gasool-x.y.tar.gz' para descompactar os arquivos.
+
+  3. `cd gasool-x.y' para ir ao diretório extraído.
+
+  4. Digite `./configure' para configurar o programa para seu sistema.
+
+  5. Digite `make' para compilar o programa.
+
+  6. Digite `make install' para instalar `gasool' e seu manual.
+
+  É recomendado que o programa seja configurado e compilado com um usuário
+  regular, e somente o `make install' executado com privilégios de root
+  (administrador), portanto use `su' antes dessa fase.
+
+	LIBCURL
+	=======
+
+  É preciso ter instalado a biblioteca "libcurl" para a execução do programa.
+  Caso seu sistema não possuia a biblioteca citada, durante a configuração
+  (`/configure') é gerado um erro. Para mais detalhes, leia o arquivo `CURL'.
+
+	Desinstalação
+	=============
+
+  Para desinstalar o programa, vá para a pasta onde se encontra o `Makefile'
+  do programa e digite `make clean'. Serão desinstalados o programa `gasool'
+  e seu manual.
+
+	Informações
+	===========
+
+  Para mais informações sobre o programa, leia o `README' ou entre em contato
+  <gasool.anp@live.com>.
+
+================================================================================
+
+  Copyright (C) 2012, Marcel Luis Nishihara - Thiago Henrique Poiani
+  Este programa é software livre; você pode redistribuí-lo e/ou
+  modificá-lo sob os termos da Licença Pública Geral GNU, conforme
+  publicada pela Free Software Foundation; tanto a versão 2 da
+  Licença como (a seu critério) qualquer versão mais nova.
+
+  Este programa é distribuído na expectativa de ser útil, mas SEM
+  QUALQUER GARANTIA; sem mesmo a garantia implícita de
+  COMERCIALIZAÇÃO ou de ADEQUAÇÃO A QUALQUER PROPÓSITO EM PARTICULAR.
+  Consulte a Licença Pública Geral GNU para obter mais detalhes.
+
